@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 namespace UnityStandardAssets.ImageEffects
-{
+{/*
     [ExecuteInEditMode]
     [RequireComponent (typeof(Camera))]
     [AddComponentMenu ("Image Effects/Rendering/Sun Shafts")]
@@ -143,5 +143,5 @@ namespace UnityStandardAssets.ImageEffects
 
             RenderTexture.ReleaseTemporary (lrDepthBuffer);
         }
-    }
+    }*/
 }
