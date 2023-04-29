@@ -374,6 +374,7 @@
 "Assets/SimplePoly - Town Pack/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs"
 "Assets/SimplePoly - Town Pack/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs"
 "Assets/SimplePoly - Town Pack/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs"
+"Assets/UIAssets/SelectLevel.cs"
 "Assets/XRPlatformControllerSetup.cs"
 -langversion:9.0
 
