@@ -369,6 +369,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Scripts/MainMenuButtons.cs"
+"Assets/Scripts/SceneSelector.cs"
 "Assets/Scripts/SoundManager.cs"
 "Assets/SimplePoly - Town Pack/DemoScene/FlyCamera.cs"
 "Assets/SimplePoly - Town Pack/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs"
