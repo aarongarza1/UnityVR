@@ -11,7 +11,7 @@ public class DialogueSelector : MonoBehaviour
     }
 
     // Update is called once per frame
-    void SelectDialogue()
+    public void SelectDialogue()
     {
         switch (this.gameObject.name)
         {
@@ -25,7 +25,8 @@ public class DialogueSelector : MonoBehaviour
             case "Button1b":
                 ButtonManager.inst.Clear();
                 TextBoxContainer.inst.Clear();
-                TextBoxContainer.inst.TextBoxes[1].SetActive(true);
+                TextBoxContainer.inst.TextBoxes[5].SetActive(true);
+                TextBoxContainer.inst.LoseCon();
                 break;
             case "Button2a":
                 ButtonManager.inst.Clear();
@@ -38,11 +39,13 @@ public class DialogueSelector : MonoBehaviour
                 ButtonManager.inst.Clear();
                 TextBoxContainer.inst.Clear();
                 TextBoxContainer.inst.TextBoxes[5].SetActive(true);
+                TextBoxContainer.inst.LoseCon();
                 break;
             case "Button3a":
                 ButtonManager.inst.Clear();
                 TextBoxContainer.inst.Clear();
                 TextBoxContainer.inst.TextBoxes[5].SetActive(true);
+                TextBoxContainer.inst.LoseCon();
                 break;
             case "Button3b":
                 ButtonManager.inst.Clear();

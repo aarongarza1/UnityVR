@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TextBoxContainer : MonoBehaviour
 {
     [SerializeField] public List<GameObject> TextBoxes;
+    [SerializeField] public GameObject Fader;
     public static TextBoxContainer inst;
     
     // Start is called before the first frame update
@@ -33,14 +35,24 @@ public class TextBoxContainer : MonoBehaviour
             textbox.SetActive(false);
         }
     }
+    public void LoseCon()
+    {
+        Invoke("ChangeScene", 5.0f);
+    }
     public void WinCon()
     {
+        //Fader.SetActive(true);
         Invoke("DisplayFinal", 2.0f);
+        Invoke("ChangeScene", 12.0f);
     }
     void DisplayFinal()
     {
         Clear();
         TextBoxes[4].SetActive(true);
 
+    }
+    void ChangeScene()
+    {
+        SceneManager.LoadScene("DemoScene");
     }
 }

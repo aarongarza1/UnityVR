@@ -7,7 +7,11 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] public List<GameObject> ButtonList;
     public static ButtonManager inst;
    
-
+    void Awake()
+    {
+        if(inst == null)
+            inst = this;
+    }
     // Start is called before the first frame update
     void Start()
     {

@@ -19,11 +19,11 @@ public class MainMenuButtons : MonoBehaviour
     {
         
     }
-    void StartGame()
+    public void StartGame()
     {
         SceneManager.LoadScene("DemoScene");
     }
-    void QuitGame()
+    public void QuitGame()
     {
         Application.Quit();
     }
