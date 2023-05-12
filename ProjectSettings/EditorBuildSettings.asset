@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FriendScene2.unity
     guid: b044cde7bb857a44aaad7abe80ee1f9c
+  - enabled: 1
+    path: Assets/Scenes/FriendScene1.unity
+    guid: eb6985874cc1d9c499afbc74fbd00487
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
